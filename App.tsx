@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { fetchGEDQuestions } from './services/geminiService';
+import { fetchGEDQuestions } from './services/questionsService';
 import { Question, UserAnswer, AppState, Difficulty } from './types';
 import { Button } from './components/Button';
 import { QuestionCard } from './components/QuestionCard';
