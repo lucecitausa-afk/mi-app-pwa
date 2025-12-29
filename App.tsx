@@ -33,6 +33,7 @@ const App: React.FC = () => {
       setShowFeedback(false);
       setSelectedAnswer(null);
     } catch (error) {
+         console.error("ERROR REAL:", err);
       alert("Error loading questions. Please try again.");
     } finally {
       setLoading(false);
