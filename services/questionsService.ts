@@ -1,5 +1,5 @@
-export function fetchQuestionId(difficulty) {
-   const questions = [  
+export function fetchEQQuestions(amount,difficulty,history) {
+   const questions = [ 
   {
     "id": 1,
     "difficulty": "easy",
@@ -23,7 +23,7 @@ export function fetchQuestionId(difficulty) {
   }
 ];
 
-return questions.filter(q => q.difficulty === difficulty);
+   return questions.filter(q => q.difficulty === difficulty).slice(0,amount);
 }
 
 
