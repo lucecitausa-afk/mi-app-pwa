@@ -1,4 +1,4 @@
-export function fetchEQQuestions(amount,difficulty,history) {
+export function fetchGEDQuestions(amount,difficulty,history) {
    const questions = [ 
   {
     "id": 1,
